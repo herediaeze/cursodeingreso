@@ -2,6 +2,7 @@ function Mostrar()
 {
 
 	var numero = prompt("ingrese un número entre 0 y 10.");
+	
 	while (isNaN(numero)){ 
 	
 		prompt("ingrese un número entre 0 y 10.");
@@ -14,6 +15,4 @@ function Mostrar()
 	document.getElementById("numero").value=numero;
 
 }
-
-
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN
